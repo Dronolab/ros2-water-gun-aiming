@@ -1,0 +1,4 @@
+int32 duration_ms
+---
+bool sent
+string message

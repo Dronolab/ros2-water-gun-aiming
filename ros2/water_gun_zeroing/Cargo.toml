@@ -1,0 +1,20 @@
+[package]
+name = "water_gun_zeroing"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "ROS 2 node that computes aiming angles for the drone water gun"
+
+[dependencies]
+anyhow = "1"
+rclrs = "=0.7.0"
+ros-env = "=0.2.0"
+serialport = "4"
+
+[[bin]]
+name = "water_gun_zeroing_node"
+path = "src/main.rs"
+
+[[bin]]
+name = "water_gun_controller_node"
+path = "src/bin/water_gun_controller_node.rs"
