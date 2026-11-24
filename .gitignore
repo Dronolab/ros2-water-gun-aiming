@@ -1,0 +1,22 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Rust / Cargo
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Dev visualization output
+webcam_frame_pred.png
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -3,12 +3,13 @@
 <package format="3">
   <name>drone_image_detection</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="simon.pomerleau.1@ens.etsmtl.ca">Simon Pomerleau</maintainer>
-  <license>TODO: License declaration</license>
+  <description>ROS 2 YOLO target detection node with camera calibration and unit-vector projection</description>
+  <maintainer email="simon@dronolab.local">Simon Pomerleau</maintainer>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
+  <depend>drone_interfaces</depend>
   <depend>cv_bridge</depend>
   <depend>ament_index_python</depend>
 

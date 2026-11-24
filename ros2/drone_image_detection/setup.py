@@ -19,10 +19,10 @@ setup(
     ],
     install_requires=['setuptools', 'ultralytics'],
     zip_safe=True,
-    maintainer='ros',
-    maintainer_email='=',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Simon Pomerleau',
+    maintainer_email='simon@dronolab.local',
+    description='ROS 2 YOLO target detection node with camera calibration and unit-vector projection',
+    license='Apache-2.0',
     extras_require={
         'test': [
             'pytest',
